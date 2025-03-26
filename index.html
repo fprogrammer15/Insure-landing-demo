@@ -11,6 +11,8 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Frontend Mentor | Insure landing page</title>
 
@@ -28,9 +30,10 @@
   <body>
     <header class="site-header">
       <nav class="sitenav">
-        <div class="container">
-          <a>
+        <div class="container sitenav-container">
+          <a class="logo">
             <img
+              class="logo-img class="sitenav-link""
               src="images/logo.svg"
               alt="Insure logo"
               width="111"
@@ -40,16 +43,16 @@
 
           <ul class="sitenav-list">
             <li class="sitenav-item">
-              <a href="blank.html" class="sitenav-link">How we work</a>
+              <a class="sitenav-link" href="blank.html">How we work</a>
             </li>
             <li class="sitenav-item">
-              <a href="blank.html" class="sitenav-link">Blog</a>
+              <a class="sitenav-link" href="blank.html">Blog</a>
             </li>
             <li class="sitenav-item">
-              <a href="blank.html" class="sitenav-link">Account</a>
+              <a class="sitenav-link" href="blank.html">Account</a>
             </li>
-            <li class="sitenav-item">
-              <a href="blank.html" class="sitenav-link">View plans</a>
+            <li class="sitenav-item sitenav-item-bordered">
+              <a class="sitenav-link" href="blank.html">View plans</a>
             </li>
           </ul>
         </div>
